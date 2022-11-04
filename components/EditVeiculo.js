@@ -10,7 +10,6 @@ const EditVeiculo = ({ veiculoId, setResponseVeiculo }) => {
     marca: "",
     ano: "",
     descricao: "",
-    vendido: "",
     created: "",
     updated: "",
   });
@@ -142,19 +141,6 @@ const EditVeiculo = ({ veiculoId, setResponseVeiculo }) => {
                       className="h-10 w-96 border mt-2 px-2 py-2"
                     />
                   </div>
-                  <div className="h-14 my-4">
-                    <label className="block text-gray-600 text-sm font-normal ">
-                      Vendido
-                    </label>
-                    <input
-                      type="text"
-                      name="vendido"
-                      value={veiculo.vendido}
-                      onChange={(e) => handleChange(e)}
-                      className="h-10 w-96 border mt-2 px-2 py-2"
-                    />
-                  </div>
-
                   <div className="h-14 my-4 space-x-4 pt-4 ">
                     <button
                       onClick={updateVeiculo}

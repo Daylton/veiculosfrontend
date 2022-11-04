@@ -67,9 +67,6 @@ const VeiculoList = ({ veiculo }) => {
                   Descrição
                 </th>
                 <th className="text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6">
-                  Vendido
-                </th>
-                <th className="text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6">
                   Created
                 </th>
                 <th className="text-left font-medium text-gray-500 uppercase tracking-wide py-3 px-6">

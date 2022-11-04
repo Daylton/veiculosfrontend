@@ -16,9 +16,6 @@ const Veiculo = ({veiculo, deleteVeiculo, editVeiculo}) => {
         <div className="text-sm text-gray-500 ">{veiculo.descricao}</div>
       </td>
       <td className="text-left px-6 py-4 whitespace-nowrap">
-        <div className="text-sm text-gray-500 ">{veiculo.vendido}</div>
-      </td>
-      <td className="text-left px-6 py-4 whitespace-nowrap">
         <div className="text-sm text-gray-500 ">{veiculo.created}</div>
       </td>
       <td className="text-left px-6 py-4 whitespace-nowrap">
